@@ -1,6 +1,6 @@
 # cgo crossbuild
 
-cgo cross compiling environments
+Dockerfile for cgo cross compiling environments
 
 This is a multiarch Docker build environment image. You can use this image to produce binaries for multiple architectures.
 
@@ -20,3 +20,11 @@ This is a multiarch Docker build environment image. You can use this image to pr
 | i386-apple-darwin     | osx32, darwin32                     |       | TBD  |         |
 | x86_64-w64-mingw32    | windows, win64                      |       |      | x       |
 | i686-w64-mingw32      | win32                               |       |      | x       |
+
+## Credit
+
+This project is inspired by the [cross-compiler](https://github.com/multiarch/crossbuild) by [Multiarch](https://github.com/multiarch)
+
+## License
+
+MIT
