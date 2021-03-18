@@ -1,4 +1,4 @@
-# cgo crossbuild
+## cgo crossbuild
 
 Dockerfile for cgo cross compiling environments
 
@@ -24,6 +24,12 @@ This is a multiarch Docker build environment image. You can use this image to pr
 ## Credit
 
 This project is inspired by the [cross-compiler](https://github.com/multiarch/crossbuild) by [Multiarch](https://github.com/multiarch)
+
+## Donation
+
+If this project help you reduce time to develop, you can give me a cup of coffee ;)
+
+[![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/ngoxuanloc)
 
 ## License
 
