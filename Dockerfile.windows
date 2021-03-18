@@ -1,0 +1,5 @@
+FROM xuanloc0511/cgo_base:1.0.0
+
+ENV GOOS=windows
+ENV GOARCH=amd64
+ENV CROSS_TRIPLE=x86_64-w64-mingw32
