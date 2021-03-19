@@ -27,7 +27,7 @@ This project is inspired by the [cross-compiler](https://github.com/multiarch/cr
 
 ## Donation
 
-If this project help you reduce time to develop, you can give me a cup of beer ;)
+If this project help you reduce time to develop, you can give me a cup of coffee ;)
 
 <a href="https://www.buymeacoffee.com/locngo"><img src="https://cdn.buymeacoffee.com/assets/img/home-page-v3/bmc-new-logo.png" width="250px"/></a>
 
