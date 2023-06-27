@@ -1,5 +1,5 @@
 #xuanloc0511/cgo_base:1.0.0
-FROM debian:stable-slim
+FROM debian:oldstable-slim
 MAINTAINER Loc Ngo <xuanloc0511@gmail.com>
 
 # Install deps
@@ -126,9 +126,10 @@ RUN mkdir -p /usr/x86_64-linux-gnu;                                             
 ENV LD_LIBRARY_PATH /usr/osxcross/lib:$LD_LIBRARY_PATH
 ENV PATH /usr/osxcross/bin:$PATH
 
-RUN wget https://golang.org/dl/go1.16.2.linux-amd64.tar.gz \
+# RUN wget https://golang.org/dl/go1.16.2.linux-amd64.tar.gz \
+RUN wget https://go.dev/dl/go1.20.5.linux-amd64.tar.gz \
     && rm -rf /usr/local/go \
-    && tar -C /usr/local -xzf go1.16.2.linux-amd64.tar.gz \
+    && tar -C /usr/local -xzf go1.20.5.linux-amd64.tar.gz \
     && mkdir -p /go
 
 ENV GOPATH=/go
